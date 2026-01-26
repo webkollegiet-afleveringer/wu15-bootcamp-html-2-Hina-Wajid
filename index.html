@@ -28,29 +28,33 @@
                 </button>
                 <!-- search button . unclear situation. usually followed by input type text.
                   not sure about why it stand alone could have used a tag -->
-
-                <button class="search-img">
-                    <img src="img/svg/magnifying-glass-solid-full.svg" alt="serach-button">
-                </button>
-
+                
+                  <search>
+                    <form class="search-img">
+                        <img src="img/svg/magnifying-glass-solid-full.svg" alt="serach-button">
+                    </form>
+                </search>
+                
                 <!-- logo as link  -->
-                <a href="#"><img src="img/information_screenshot.png" alt=""></a>
+                <a href="#"><img role="heading" aria-level="1" src="img/information_screenshot.png" alt="Information"></a>
 
                 <!-- login as link because it will take to a login page -->
                 <a href="#">login<img src="img/svg/user-solid-full.svg" alt=""></a>
+            
             </div>
+
             <!-- header second unit/section -->
             <div class="header-unit-2">
 
-                <nav>
-                    <ul>
-                        <li><a href="#">Nyhedsbreve</a></li>
+                <nav class="header__navigation navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#">Nyhedsbreve</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#">Podcast</a></li>
+                        <li class="navigation__item"><a href="#">Podcast</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#">Købe Abbonnement</a></li>
+                        <li class="navigation__item"><a href="#">Købe Abbonnement</a></li>
                     </ul>
                 </nav>
             </div>
